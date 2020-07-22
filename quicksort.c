@@ -6,14 +6,13 @@
 
 void quickSort(int *array,int first,int last){
 	
-    int i; 
-    int j; 
+    int i,j; 
     int pivot; 
     int tmp; 
     pivot=first; 
    
     // If the last element done here is larger than the first element, as long as the last element is larger than the first element,  
-	// An element smaller than the pivot is selected and replaced.
+    // An element smaller than the pivot is selected and replaced.
     if(last>first){
         pivot=first;
         i=first;
